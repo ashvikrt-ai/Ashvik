@@ -1,0 +1,20 @@
+#box1 {
+    transform: translate(250px, 250px);
+    width: 250px  ;
+    height: 250px;
+    background-color: red;
+    font-size: 225px;
+    text-align: center;
+
+    animation: my_slide;
+    animation-duration: 3s;
+}
+
+
+@keyframes my_slide {
+    from{margin-left: 100%;}
+    to{margin-left: 0px;}
+}
+#input_container {
+    transform: translate(0px, -250px);
+}
