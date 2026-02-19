@@ -13,8 +13,5 @@
 
 @keyframes my_slide {
     from{margin-left: 100%;}
-    to{margin-left: 0px;}
-}
-#input_container {
-    transform: translate(0px, -1000px);
+    to{margin-left: 500px;}
 }
